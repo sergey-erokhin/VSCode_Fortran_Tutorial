@@ -24,7 +24,7 @@ contains
         integer                                :: i
 
         res = 0
-        do i = 1,size(vector),2
+        do i = 1,size(vector),1
             res = res + vector(i)**2
         end do
 
